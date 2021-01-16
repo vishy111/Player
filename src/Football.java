@@ -18,7 +18,7 @@ public class Football {
 	
 	public void displayPlays(Player[] players) {
 		for(Player player : players) {
-			System.out.println("name " + player.name);
+		//System.out.println("name " + player.name);
 			System.out.println(player.name + " " + player.play());
 		}
 	}
